@@ -20,8 +20,9 @@ function factorial(int $n): int {
 	$answer = 1;  // default to 0!=1
 	for($i = 1; $i <= $n; $i++) {
 		$answer = $answer * $i;
+		//what this is doing is 1•1•2•3... it works backwards
 	}
 	return $answer;
 }
 
-echo factorial(6) . PHP_EOL;
+echo factorial(3) . PHP_EOL;
